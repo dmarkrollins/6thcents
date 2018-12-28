@@ -1,0 +1,121 @@
+nav {
+    background-color: #fff !important;
+}
+
+header {
+    background-color: #fff !important;
+}
+
+div.landing-zone {
+    color: #fff;
+    padding: 21px;
+    background-image: url(/images/dotboard.jpg);
+    border-radius: 6px;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
+div.landing-zone p.title {
+    color: #fff;
+    text-align: left;
+    font-size: 2em;
+}
+
+div.landing-zone p.subtitle {
+    color: #fff;
+    text-align: left;
+    font-size: 1.25em;
+}
+
+div.nav-logo img {
+    max-width: 400px;
+}
+
+h3.card-title {
+    color: #523713 !important;
+}
+
+.button-brown,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+    display: inline-block;
+    height: 40px;
+    margin: 0 2px 15px;
+    padding: 0 20px;
+    width: auto;
+    background:#523713;
+    overflow: visible;
+    appearance: none;
+    transition: all .1s ease-out;
+
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.button-brown:active {
+    opacity: 1;
+    transform: scale(1);
+}
+.button-brown:hover
+.button-brown:focus {
+    opacity: 0.85;
+    transform: scale(1.025);
+}
+.button-brown:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.nav-links a.active {
+    border-bottom: 4px solid #7c531d;
+}
+
+a {
+    color: #ac7227;
+    text-decoration: underline;
+}
+a:hover {
+    color: #4e3414;
+    text-decoration: underline;
+}
+h4 {
+    color: #81561d;
+}
+
+h5 {
+    font-size: 1.2em;
+    color: #523713;
+}
+
+div#content ul li {
+    list-style-type: square;
+    margin-left: 1em;
+    padding-left: 1.1em;
+    text-indent: -1.45em;
+}
+
+div.resume {
+    padding: 40px;
+}
+
+a.contact-link {
+    margin: 21px;
+    color: #ccc;
+}
+
+a.contact-link:hover {
+    margin: 21px;
+    color: #7c531d;
+}

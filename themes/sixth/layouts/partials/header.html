@@ -1,0 +1,17 @@
+<nav>
+    <div class="nav-container" style="margin-top: 21px;">
+        <div class="nav-logo">
+            <div style="max-width: 500px; margin-top: 36px;">
+                <img src="/images/6thCents-Logo.png" alt=""/><br/>
+                <div style="position: relative; top: -30px; left: 155px; font-size: 10pt; color: rgb(114, 76, 27); font-weight: bold;">Network, Data, App and Website Solutions</div>
+            </div>
+        </div>
+        <ul class="nav-links">
+                
+            <li><a {{ if .IsHome }}class="active"{{ end }} href="/">Home</a></li>
+            <li><a {{ if eq .Title "Services" }}class="active"{{ end }} href="/services">Services</a></li>
+            <li><a {{ if eq .Title "About" }}class="active"{{ end }} href="/about">About</a></li>
+            <li><a {{ if eq .Title "Contact" }}class="active"{{ end }} href="/contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {{- partialCached "resumehead.html" . -}}
+    <body>
+        <div class="resume" id="content">
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    {{ .Content }}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <h5>Contact Information</h5>
+                    <a class="contact-link" href="https://www.linkedin.com/in/dmarkrollins/"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a class="contact-link" href="https://github.com/dmarkrollins"><i class="fab fa-github-alt fa-2x"></i></a>
+                    <a class="contact-link" href="mailto:drollins@sdcsol.com"><i class="fas fa-at fa-2x"></i></a>    
+                    <a class="contact-link" href="mailto:?subject=David Rollins Resume&amp;body=http://www.6thcents.com/david-rollins"><i class="fas fa-share-alt fa-2x"></i></a>
+                </div>
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                </div>
+        </div>
+    </body>
+</html>
